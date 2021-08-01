@@ -1,0 +1,5 @@
+CREATE DATABASE my_db;
+
+CREATE TABLE Product(ID int PRIMARY KEY, PNAME varchar(10), AMOUNT int);
+
+INSERT INTO Product VALUES(1,'Monitor',10000),(2,'Mouse',5000),(3,'Keyboard',5000),(4,'CPU',15000);
